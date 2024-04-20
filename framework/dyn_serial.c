@@ -6,6 +6,9 @@
 #include "usb_descriptor.h"
 #include "usb_descriptor_common.h"
 
+// ***
+// DOUBLE DEFINED SPDKILS REMOVED ALL THIS TO FIX COMPILE WITH VIAL
+// ***
 // Prefix string literal with L for descriptors
 // #ifdef SERIAL_NUMBER
 // USB_Descriptor_String_t PROGMEM SerialNumberString = {
